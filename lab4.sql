@@ -9,17 +9,18 @@ insert into contacts (email, telegram) values ('user1_email@gmail.com', 'https:/
 	('user7_email@ukr.net', 'https://t.me/user7_telegram'),
 	('user8_email@ukr.net', 'https://t.me/user8_telegram');
     
+LOAD DATA INFILE 'D:\mySQL\\user.txt' INTO TABLE contacts;
+	
 select * from contacts;
-
     
-/*update contacts set  telegram = 'https://t.me/qwerty' where email = 'user1_email@gmail.com';
+update contacts set  telegram = 'https://t.me/qwerty' where email = 'user1_email@gmail.com';
 update contacts set contacts_id = contacts_id + 1 order by contacts_id desc;
 
 select * from contacts;
 
 delete from contacts where contacts_id < 4; 
 
-select * from contacts;*/
+select * from contacts;
 
 
 
