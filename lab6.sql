@@ -1,13 +1,13 @@
 use projectManagementSystem;
 
-insert into user (contacts_id, surname, name, login, password) values (1, 'surname_1', 'name_1', 'login_1', 'pass'), 
-(2, 'surname_2', 'name_2', 'login_2', 'password_2'), 
-(3, 'surname_3', 'name_3', 'login_3', 'password3'), 
-(4, 'surname_4', 'name_4', 'login_4', 'password_4546'), 
-(5, 'surname_5', 'name_5', 'login_5', 'pasord_5'),
-(6, 'surname_6', 'name_6', 'login_6', 'passWord_6'), 
-(7, 'surname_7', 'name_7', 'login_7', 'password_7'), 
-(8, 'surname_8', 'name_8', 'login_8', 'pasrd_8');
+insert into user (contacts_id, surname, name, login, password) values ( 1,'surname_1', 'name_1', 'login_1', 'pass'), 
+( 2, 'surname_2', 'name_2', 'login_2', 'password_2'), 
+( 3, 'surname_3', 'name_3', 'login_3', 'password3'), 
+( 4, 'surname_4', 'name_4', 'login_4', 'password_4546'), 
+( 5, 'surname_5', 'name_5', 'login_5', 'pasord_5'),
+( 6, 'surname_6', 'name_6', 'login_6', 'passWord_6'), 
+( 7, 'surname_7', 'name_7', 'login_7', 'password_7'), 
+( 8, 'surname_8', 'name_8', 'login_8', 'pasrd_8');
 
 select * from user;
 
